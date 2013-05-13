@@ -1,0 +1,14 @@
+/*[[[cog
+
+import sys
+sys.path.append('../src')
+import classwizard as cw
+
+config_file = globals()["CONFIG_FILE"]
+#print("Reading config from : %s" % config_file)
+
+wizard = cw.HFile(config_file)
+wizard.generate();
+
+]]]*/
+//[[[end]]]

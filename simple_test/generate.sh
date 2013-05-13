@@ -2,10 +2,20 @@
 
 #fname=`basename $1`
 file=$1
+config_file=${file}
 fname_wo_ext=${file%[.]*}
-fext=${file##*.}
+cpp_file=${fname_wo_ext}.cpp
+h_file=${fname_wo_ext}.h
+#fext=${file##*.}
 
-echo $fname_wo_ext
-echo $fext
+echo "Generating class" ${fname_wo_ext}
+echo "Reading config from : " ${config_file}
+#echo $fext
 
-cog.py -o ${fname_wo_ext} ${file}
+
+echo "Generating " ${cpp_file} 
+cog.py -o ${cpp_file} -D CONFIG_FILE=${config_file} -d -z CppFile.cog
+echo "Generating " ${h_file} 
+cog.py -o ${h_file} -D CONFIG_FILE=${config_file} -d -z HFile.cog
+
+echo "done."
