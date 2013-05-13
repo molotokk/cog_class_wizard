@@ -1,9 +1,22 @@
 #!/usr/bin/env python
 
 import string
-import cog
+import cogapp as cog
 
+def tryRead(dict, key):
+    return dict[key] if key in dict.keys() else ''
 
+def dictlistSelect(dictlist, key, value):
+    return [dictio for dictio in dictlist if dictio[key] == value]
+
+def dictlistFilter(dictlist, key, valuelist):
+    return [dictio for dictio in dictlist if dictio[key] in valuelist]
+
+def firstUppper(str):
+    return str[0].upper() + str[1:]
+
+def firstLower(str):
+    return str[0].lower() + str[1:]
 
 def hasDupes(collection):
     contents = set()
@@ -20,8 +33,6 @@ def indent(s, n):
         result.append((' ' * n) + line)
 
     return "\n".join(result)
-
-
 
 def sanitizeTypename(typename):
     # Instead of sanitizing typenames we could try to sanitize variable declarations
@@ -89,23 +100,23 @@ def verifyName(name):
                       "and underscores." % name)
 
 
-class typedef(object):
-    def __init__(self, cpp_type, name):
-        self.cpp_type = cpp_type
-        self.name = name
-
-        verifyName(self.name)
-
-    def out(self):
-        cog.out("typedef %s %s;" % (self.cpp_type, self.name))
-
-class const(object):
-    def __init__(self, cpp_type, name, value):
-        self.cpp_type = cpp_type
-        self.name = name
-        self.value = value
-
-        verifyName(self.name)
-
-    def out(self):
-        cog.out("static const %s %s = %s;" % (self.cpp_type, self.name, self.value))
+# class typedef(object):
+#     def __init__(self, cpp_type, name):
+#         self.cpp_type = cpp_type
+#         self.name = name
+#
+#         verifyName(self.name)
+#
+#     def out(self):
+#         cog.out("typedef %s %s;" % (self.cpp_type, self.name))
+#
+# class const(object):
+#     def __init__(self, cpp_type, name, value):
+#         self.cpp_type = cpp_type
+#         self.name = name
+#         self.value = value
+#
+#         verifyName(self.name)
+#
+#     def out(self):
+#         cog.out("static const %s %s = %s;" % (self.cpp_type, self.name, self.value))
