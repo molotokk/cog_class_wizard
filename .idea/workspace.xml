@@ -4,20 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py" line="9" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9652831a-5f39-4b8f-9094-2d0982bd1d20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/ConfigReader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/CppFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/GeneratorBase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/HFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/SimpleCog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classwizard/util.py" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\PanSharpener.cog" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cogflect/CppClass.py" afterPath="$PROJECT_DIR$/src/cogflect/CppClass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cogflect/GeneratorBase.py" afterPath="$PROJECT_DIR$/src/cogflect/GeneratorBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple_test/generate.sh" afterPath="$PROJECT_DIR$/simple_test/generate.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9652831a-5f39-4b8f-9094-2d0982bd1d20" name="Default" comment="" />
     <ignored path="cog_class_wizard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368438283778" ignored="false" />
@@ -118,7 +105,7 @@
       <file leaf-file-name="CppClass.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cogflect/CppClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="62" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="17" column="62" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#23#62#0" expanded="true" />
               </folding>
@@ -345,6 +332,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -631,7 +619,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1216" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -648,7 +636,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.60885954" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39114043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39114043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -810,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cogflect/CppClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="62" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+        <state line="17" column="62" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#23#62#0" expanded="true" />
           </folding>
