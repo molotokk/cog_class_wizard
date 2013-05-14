@@ -1,9 +1,13 @@
-#%YAML:1.0
----
-## Input file for class creation wizard
-class: PanSharpener
 
-## Declare the properties (accessor methods) and which private data member they modify.
+## Input file for class creation wizard
+#
+# Note: The document be in a valid YAML format. 
+# An editor which autoexpands tabs to spaces and displays text in a fixed-width font is recommended.
+
+class: Test
+
+## Declare the properties (accessor methods) and which private_data member they modify
+#  If no correpondent private_data member is found, it is created automatically.
 properties:
     - name: parameterSetFile
       returns: std::wstring
@@ -13,7 +17,7 @@ properties:
       returns: cv::Point
       modifies: offset
 
-## Declare the class methods          
+## Declare class methods          
 methods:
     - name: init
       visibility: public
@@ -37,7 +41,7 @@ methods:
     - name: performPanSharpening
       visibility: protected
       returns: void
-      arguments: cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0)
+      arguments: cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset
     
     - name: translateImage
       visibility: protected
@@ -49,7 +53,7 @@ methods:
       returns: void
       arguments: cv::InputArray src, cv::OutputArray dst, double factor = 1
 
-## Declare the class private data variables
+## Declare class private data variables
 private_data:
     - name: stereoProcessorType
       returns: int
@@ -63,7 +67,4 @@ private_data:
       returns: std::wstring
       default: 'L"stereoprocessor_parameters.yml"'
       
-    - name: offset
-      returns: cv::Point
 
-...

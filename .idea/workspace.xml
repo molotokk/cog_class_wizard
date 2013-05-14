@@ -4,22 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py" line="9" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9652831a-5f39-4b8f-9094-2d0982bd1d20" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\CppFile.cog" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\HFile.cog" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\PanSharpener.cpp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\PanSharpener.h" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\PanSharpener.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\dict.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\generate.sh" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\test01.cpp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\test01.cpp.cog" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\test02.cpp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\simple_test\test02.cpp.cog" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/CppFile.py" afterPath="$PROJECT_DIR$/src/classwizard/CppFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/GeneratorBase.py" afterPath="$PROJECT_DIR$/src/classwizard/GeneratorBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/HFile.py" afterPath="$PROJECT_DIR$/src/classwizard/HFile.py" />
-    </list>
+    <list default="true" id="9652831a-5f39-4b8f-9094-2d0982bd1d20" name="Default" comment="" />
     <ignored path="cog_class_wizard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368530868764" ignored="false" />
@@ -107,15 +92,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CppClass.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cogflect/CppClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classwizard/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -192,7 +168,7 @@
       <file leaf-file-name="cogapp.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/cogapp/cogapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="513" column="43" selection-start="18290" selection-end="18290" vertical-scroll-proportion="0.0">
+            <state line="514" column="43" selection-start="18291" selection-end="18291" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#119#173#0" expanded="true" />
               </folding>
@@ -285,24 +261,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cog_class_wizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cog_class_wizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cog_class_wizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cogflect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,13 +619,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12086874" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -778,18 +736,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cogflect/GeneratorBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cogflect/CppClassOld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="8" selection-start="3508" selection-end="3558" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="30" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
@@ -797,21 +743,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cogflect/CppClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cogflect/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="84" selection-end="84" vertical-scroll-proportion="0.08225807" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/cogapp/cogapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="513" column="43" selection-start="18290" selection-end="18290" vertical-scroll-proportion="0.0">
+        <state line="514" column="43" selection-start="18291" selection-end="18291" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#119#173#0" expanded="true" />
           </folding>
