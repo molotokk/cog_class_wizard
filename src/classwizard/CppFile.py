@@ -55,14 +55,14 @@ class CppFile(GeneratorBase):
             #setter
             cog.outl("void %s::set%s(const %s value)" % (self.class_name, firstUppper(name), returns))
             if modifies:
-                cog.outl('{\n\td_data->%s = value;\n}' % modifies)
+                cog.outl('{\n\td_data->%s = value;\n}\n' % modifies)
             else:
                 cog.outl(braces)
 
             #getter
             cog.outl("%s\t%s::%s() const" % (returns, self.class_name, name))
             if modifies:
-                cog.outl('{\n\treturn d_data->%s;\n}' % modifies)
+                cog.outl('{\n\treturn d_data->%s;\n}\n' % modifies)
             else:
                 cog.outl(braces)
 
@@ -121,9 +121,9 @@ class CppFile(GeneratorBase):
 
 
 if __name__ == '__main__':
-    config_file = "../../simple_test/PanSharpener.yml"
+    config_file = "../../tests/PanSharpener.yml"
     generator = CppFile(config_file)
-    generator.generate("../../simple_test/PanSharpener.cpp")
+    generator.generate()
     print(cog.outstring)
 
     #print "Generation done."

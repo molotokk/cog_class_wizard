@@ -95,9 +95,9 @@ class HFile(GeneratorBase):
 
 
 if __name__ == '__main__':
-    config_file = "../../simple_test/PanSharpener.yml"
+    config_file = "../../tests/PanSharpener.yml"
     generator = HFile(config_file)
-    generator.generate("../../simple_test/PanSharpener.h")
+    generator.generate()
     print(cog.outstring)
 
     #print "Generation done."

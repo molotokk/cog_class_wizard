@@ -1,0 +1,53 @@
+#%YAML:1.0
+---
+## Input file for class creation wizard
+class: PanSharpener
+
+## Declare the properties (accessor methods) and which private data member they modify.
+properties:
+    - name: parameterSetFile
+      returns: std::wstring
+      modifies: parameterSetFile  
+    
+    - name: offset
+      returns: cv::Point
+      modifies: offset
+
+## Declare the class methods          
+methods:
+    - name: init
+      visibility: public
+      returns: bool
+      
+    - name: process
+      visibility: public
+      returns: bool
+      arguments: const cv::InputArray src1, const cv::InputArray src2, cv::OutputArray dst
+
+    - name: loadParameters
+      visibility: private
+      returns: bool
+      arguments: const std::wstring& filePath
+      
+    - name: saveParameters
+      visibility: private
+      returns: bool
+      arguments: const std::wstring& filePath
+    
+    - name: performPanSharpening
+      visibility: protected
+      returns: void
+      arguments: cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0)
+    
+    - name: translateImage
+      visibility: protected
+      returns: void
+      arguments: cv::InputArray src, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0)
+      
+    - name: zoomImage
+      visibility: protected
+      returns: void
+      arguments: cv::InputArray src, cv::OutputArray dst, double factor = 1
+
+
+...

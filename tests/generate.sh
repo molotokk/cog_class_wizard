@@ -14,8 +14,8 @@ echo "Reading config from : " ${config_file}
 
 
 echo "Generating " ${cpp_file} 
-cog.py -o ${cpp_file} -D CONFIG_FILE=${config_file} -d -z CppFile.cog
+cog.py -o ${cpp_file} -D CONFIG_FILE=${config_file} -d -z ../templates/CppFile.cog
 echo "Generating " ${h_file} 
-cog.py -o ${h_file} -D CONFIG_FILE=${config_file} -d -z HFile.cog
+cog.py -o ${h_file} -D CONFIG_FILE=${config_file} -d -z ../templates/HFile.cog
 
 echo "done."
