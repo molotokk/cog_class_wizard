@@ -76,7 +76,8 @@ class HFile(GeneratorBase):
                 name = item['name']
                 returns = tryRead(item, 'returns')
                 arguments = tryRead(item, 'arguments')
-                cog.outl("\t\t%s\t%s(%s);" % (returns, name, arguments))
+                modifier = tryRead(item, 'modifier')
+                cog.outl("\t\t%s\t%s(%s) %s;" % (returns, name, arguments, modifier))
         return
 
     def __generate_data(self, config):
@@ -90,7 +91,7 @@ class HFile(GeneratorBase):
         self.vis.set('public')
         cog.outl("\t\t%s();" % class_name)
         cog.outl("\t\tvirtual ~%s();" % class_name )
-        cog.outl("};\n\n#endif %s_H" % class_name.upper())
+        cog.outl("};\n\n#endif //%s_H" % class_name.upper())
         return
 
 

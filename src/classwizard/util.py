@@ -4,7 +4,8 @@ import string
 import cogapp as cog
 
 def tryRead(dict, key):
-    return dict[key] if key in dict.keys() else ''
+    ret = dict[key] if key in dict.keys() else ''
+    return ret if ret else ''
 
 def dictlistSelect(dictlist, key, value):
     return [dictio for dictio in dictlist if dictio[key] == value]

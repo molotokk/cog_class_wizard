@@ -15,17 +15,17 @@ class Test
 		cv::Point	offset() const;
 
 		// Methods
-		bool	init();
-		bool	process(const cv::InputArray src1, const cv::InputArray src2, cv::OutputArray dst);
+		bool	init() ;
+		bool	process(const cv::InputArray src1, const cv::InputArray src2, cv::OutputArray dst) ;
 
 	private:
-		bool	loadParameters(const std::wstring& filePath);
-		bool	saveParameters(const std::wstring& filePath);
+		bool	loadParameters(const std::wstring& filePath) ;
+		bool	saveParameters(const std::wstring& filePath) ;
 
 	protected:
-		void	performPanSharpening(cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset);
-		void	translateImage(cv::InputArray src, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0));
-		void	zoomImage(cv::InputArray src, cv::OutputArray dst, double factor = 1);
+		void	performPanSharpening(cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset) ;
+		void	translateImage(cv::InputArray src, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0)) ;
+		void	zoomImage(cv::InputArray src, cv::OutputArray dst, double factor = 1) ;
 
 	private:
 		class	PrivateData;
@@ -36,4 +36,4 @@ class Test
 		virtual ~Test();
 };
 
-#endif TEST_H
+#endif //TEST_H

@@ -1,0 +1,59 @@
+
+## Input file for class creation wizard
+#
+# Note: The document be in a valid YAML format. 
+# An editor which autoexpands tabs to spaces and displays text in a fixed-width font is recommended.
+
+class: StereoCamera
+
+## Declare the properties (accessor methods) and which private_data member they modify
+#  If no correpondent private_data member is found, it is created automatically.
+properties:
+    - name: parameterFile
+      returns: std::string
+      modifies: parameterFile  
+      
+    - name: orientation
+      returns: int
+      modifies: orientation
+
+    - name: camera1
+      returns: EmbCamera&
+      modifies: camera1 
+
+    - name: camera2
+      returns: EmbCamera&
+      modifies: camera2         
+    
+
+## Declare class methods          
+methods:
+    - name: initCamera
+      visibility: public
+      returns: bool
+      
+    - name: grabNextFrame
+      visibility: public
+      returns: StereoFrame
+      
+    - name: loadStereoCalibrationFile
+      visibility: public
+      returns: void
+      arguments: const std::string& filename
+      
+    - name: currentFrame
+      visibility: public
+      returns: StereoFrame
+      modifier: const
+
+## Declare class private data variables
+private_data:
+    - name: orientation
+      returns: int
+      default: 0
+      
+    - name: parameterFile
+      returns: std::string
+      default: '"stereo_camera_parameters.yml"'
+      
+

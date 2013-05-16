@@ -40,7 +40,7 @@ class CppFile(GeneratorBase):
 
     def __generate_class_start(self, config):
         class_name = config['class']
-        cog.outl("#include %s.h" % class_name)
+        cog.outl('#include "%s.h"' % class_name)
         cog.out("\n")
         return
 
@@ -77,8 +77,9 @@ class CppFile(GeneratorBase):
                 name = item['name']
                 returns = tryRead(item, 'returns')
                 arguments = tryRead(item, 'arguments')
+                modifier = tryRead(item, 'modifier')
                 cog.outl(code_separator)
-                cog.outl("%s\t%s::%s(%s)" % (returns, self.class_name, name, arguments))
+                cog.outl("%s\t%s::%s(%s) %s" % (returns, self.class_name, name, arguments, modifier))
                 cog.outl(braces)
         return
 

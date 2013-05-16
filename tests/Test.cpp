@@ -1,4 +1,4 @@
-#include Test.h
+#include "Test.h"
 
 class Test::PrivateData
 {
@@ -8,7 +8,7 @@ class Test::PrivateData
 		std::wstring	parameterSetFile;
 		cv::Point	offset;
 		PrivateData():
-			stereoProcessorType(0)
+			stereoProcessorType()
 			, factor(1)
 			, parameterSetFile(L"stereoprocessor_parameters.yml")
 			, offset(){
@@ -51,45 +51,45 @@ cv::Point	Test::offset() const
 
 // PUBLIC METHODS
 //-----------------------------------------------------------------------------
-bool	Test::init()
+bool	Test::init() 
 {
 
 }
 
 //-----------------------------------------------------------------------------
-bool	Test::process(const cv::InputArray src1, const cv::InputArray src2, cv::OutputArray dst)
+bool	Test::process(const cv::InputArray src1, const cv::InputArray src2, cv::OutputArray dst) 
 {
 
 }
 
 // PRIVATE METHODS
 //-----------------------------------------------------------------------------
-bool	Test::loadParameters(const std::wstring& filePath)
+bool	Test::loadParameters(const std::wstring& filePath) 
 {
 
 }
 
 //-----------------------------------------------------------------------------
-bool	Test::saveParameters(const std::wstring& filePath)
+bool	Test::saveParameters(const std::wstring& filePath) 
 {
 
 }
 
 // PROTECTED METHODS
 //-----------------------------------------------------------------------------
-void	Test::performPanSharpening(cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset)
+void	Test::performPanSharpening(cv::InputArray visibleMono, cv::InputArray thermal, cv::OutputArray dst, cv::Point offset) 
 {
 
 }
 
 //-----------------------------------------------------------------------------
-void	Test::translateImage(cv::InputArray src, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0))
+void	Test::translateImage(cv::InputArray src, cv::OutputArray dst, cv::Point offset = cv::Point(0, 0)) 
 {
 
 }
 
 //-----------------------------------------------------------------------------
-void	Test::zoomImage(cv::InputArray src, cv::OutputArray dst, double factor = 1)
+void	Test::zoomImage(cv::InputArray src, cv::OutputArray dst, double factor = 1) 
 {
 
 }
