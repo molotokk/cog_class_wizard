@@ -1,4 +1,4 @@
-#%YAML:1.0
+%YAML 1.0
 ---
 ## Input file for class creation wizard
 class: PanSharpener

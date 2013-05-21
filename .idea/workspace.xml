@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py" line="9" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py" line="10" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9652831a-5f39-4b8f-9094-2d0982bd1d20" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\generator\Test.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\cog_class_wizard\generator\generator.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/CppFile.py" afterPath="$PROJECT_DIR$/src/classwizard/CppFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/HFile.py" afterPath="$PROJECT_DIR$/src/classwizard/HFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test.cpp" afterPath="$PROJECT_DIR$/tests/Test.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test.h" afterPath="$PROJECT_DIR$/tests/Test.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/util.py" afterPath="$PROJECT_DIR$/src/classwizard/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classwizard/ConfigReader.py" afterPath="$PROJECT_DIR$/src/classwizard/ConfigReader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/PanSharpener.yml" afterPath="$PROJECT_DIR$/tests/PanSharpener.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cog_class_wizard.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368703746057" ignored="false" />
+    <file path="/Dummy.txt" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1369129108887" ignored="false" />
     <file path="/Python Console" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368006613026" ignored="false" />
     <file path="/test02.cpp.cog" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368017784431" ignored="false" />
     <file path="/PanSharpener.cog" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368022603294" ignored="false" />
     <file path="/CppClass.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368450086038" ignored="false" />
-    <file path="/ConfigReader.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368462932436" ignored="false" />
+    <file path="/ConfigReader.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1369131865975" ignored="false" />
     <file path="/__init__.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368467349265" ignored="false" />
     <file path="/Generator.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368448387236" ignored="false" />
     <file path="/util.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368717807727" ignored="false" />
@@ -32,6 +27,7 @@
     <file path="/generate.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368531376929" ignored="false" />
     <file path="/generator.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368534084439" ignored="false" />
     <file path="/cogapp.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1368533583345" ignored="false" />
+    <file path="$PROJECT_DIR$/../cob_calibration/cob_camera_calibration/script/stereo_calibration.py" changelist="9652831a-5f39-4b8f-9094-2d0982bd1d20" time="1369129171807" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +88,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConfigReader.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConfigReader.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.30210015">
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="re.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="149" column="35" selection-start="7247" selection-end="7247" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,17 +121,6 @@
         <entry file="file://$PROJECT_DIR$/src/classwizard/GeneratorBase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="45" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#23#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HFile.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classwizard/HFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="83" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.6">
               <folding />
             </state>
           </provider>
@@ -133,7 +129,7 @@
       <file leaf-file-name="CppFile.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classwizard/CppFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="16" selection-start="2468" selection-end="2504" vertical-scroll-proportion="0.0">
+            <state line="78" column="37" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,15 +139,6 @@
         <entry file="file://$PROJECT_DIR$/src/classwizard/SimpleCog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classwizard/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,13 +171,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/cogflect/util.py" />
         <option value="$PROJECT_DIR$/src/cogflect/ConfigReader.py" />
         <option value="$PROJECT_DIR$/src/cogflect/GeneratorBase.py" />
         <option value="$PROJECT_DIR$/src/classwizard/Generator.py" />
         <option value="$PROJECT_DIR$/src/cogflect/CppClass.py" />
         <option value="$PROJECT_DIR$/src/classwizard/SimpleCog.py" />
-        <option value="$PROJECT_DIR$/src/classwizard/ConfigReader.py" />
         <option value="$PROJECT_DIR$/src/classwizard/__init__.py" />
         <option value="$PROJECT_DIR$/simple_test/generate.py" />
         <option value="$PROJECT_DIR$/generator/generate.py" />
@@ -200,14 +185,16 @@
         <option value="$PROJECT_DIR$/src/classwizard/util.py" />
         <option value="$PROJECT_DIR$/src/classwizard/CppFile.py" />
         <option value="$PROJECT_DIR$/src/classwizard/HFile.py" />
+        <option value="$PROJECT_DIR$/tests/PanSharpener.yml" />
+        <option value="$PROJECT_DIR$/src/classwizard/ConfigReader.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,6 +223,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,6 +252,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog_class_wizard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog_class_wizard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -274,7 +276,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +312,7 @@
       <recent name="D:\projects\cog_class_wizard\src\classwizard" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GeneratorBase">
+  <component name="RunManager" selected="Python.ConfigReader">
     <configuration default="false" name="GeneratorBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -594,24 +595,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.58110994" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12086874" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39093485" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.60822725" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39177278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.6090652" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39093485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -684,11 +685,6 @@
           <line>30</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/classwizard/ConfigReader.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/src/classwizard/HFile.py</url>
           <line>77</line>
           <option name="timeStamp" value="6" />
@@ -703,8 +699,13 @@
           <line>36</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/classwizard/ConfigReader.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -712,20 +713,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classwizard/HFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/CppFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="55" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classwizard/SimpleCog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="0.0">
@@ -754,16 +741,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py">
+    <entry file="file://C:/Python27/Lib/site-packages/cogapp/cogapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="514" column="43" selection-start="18291" selection-end="18291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/cogapp/cogapp.py">
+    <entry file="file://$PROJECT_DIR$/src/classwizard/HFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="514" column="43" selection-start="18291" selection-end="18291" vertical-scroll-proportion="0.0">
+        <state line="46" column="96" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.46666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classwizard/CppFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="37" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classwizard/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="-0.056043956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classwizard/SimpleCog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PanSharpener_new.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PanSharpener.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/yaml/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="396" column="18" selection-start="16935" selection-end="16935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -778,37 +807,23 @@
     <entry file="file://$PROJECT_DIR$/src/classwizard/GeneratorBase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="45" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="35" selection-start="7247" selection-end="7247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classwizard/ConfigReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.30210015">
           <folding>
-            <element signature="e#23#60#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/SimpleCog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/CppFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="16" selection-start="2468" selection-end="2504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classwizard/HFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="83" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.6">
-          <folding />
         </state>
       </provider>
     </entry>
