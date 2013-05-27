@@ -1,4 +1,5 @@
 #!/bin/sh
+# Simple cog test
 
 #fname=`basename $1`
 file=$1
@@ -9,3 +10,4 @@ echo $fname_wo_ext
 echo $fext
 
 cog.py -o ${fname_wo_ext} ${file}
+
